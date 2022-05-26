@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+section.title-main-section, section.first-main-section, 
+section.second-main-section, section.third-main-section {
+	width: 100%;
+	min-width: 303px;
+}
+
+section.title-main-section{
+	height: 104px;
+	background-color: #F6EFFF;
+}
+section.title-main-section .whole-title-section-content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section.title-main-section .whole-title-section-content .main-text{
+	text-align: center;
+	font-size: 32px;
+}
+
+
+section.first-main-section{
+	height: 897px;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/about/253418.jpg);
+	background-size: cover;
+	background-position: center;
+}
+section.first-main-section .whole-first-section-content {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section.first-main-section .whole-first-section-content .main-text{
+	padding-top: 100px;
+	width: 463px;
+}
+section.first-main-section .whole-first-section-content .main-text div{
+	color: white;
+}
+section.first-main-section .whole-first-section-content .text-header{
+	font-weight: 800;
+	font-size: 32px;
+}
+section.first-main-section .whole-first-section-content .text-discription{
+	font-weight: 600;
+	font-size: 23px;
+	padding-top: 39px;
+}
+
+
+section.second-main-section, section.third-main-section {
+	height: 579px;
+	background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+		url(images/about/triangle-mosaic.jpg) ;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+section.second-main-section .text-header, section.third-main-section .text-header {
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+}
+section.second-main-section .text-discription, section.third-main-section .text-discription {
+	padding-top: 30px;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+
+section.second-main-section .main-text{
+	width: 480px;
+}
+section.second-main-section img{
+	width: 442px;
+}
+
+section.third-main-section {
+	background: linear-gradient(rgba(166, 193, 181, 0.4), rgba(166, 193, 181, 0.4)), 
+		url(images/about/triangle-mosaic.jpg);
+}
+section.third-main-section .main-text{
+	width: 480px;
+}
+section.third-main-section img{
+	width: 611px;
+}
+
+
+
+@media (max-width: 1170px){
+
+	section.title-main-section{
+		height: 156px;
+	}
+	section.second-main-section, section.third-main-section {
+		height: 829px;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (max-width: 700px){
+	section.third-main-section img{
+		width: 461px;
+	}
+	section.third-main-section img{
+		width: 461px;
+	}
+}
+
+@media (max-width: 550px){
+	section.title-main-section{
+		height: 57px;
+	} 
+
+	section.title-main-section .whole-title-section-content .main-text{
+		font-size: 16px;
+	}
+
+
+	section.first-main-section{
+		height: 445px;
+	}
+
+	section.first-main-section .whole-first-section-content .main-text{
+		padding-top: 50px;
+		width: 232px;
+	}
+	section.first-main-section .whole-first-section-content .text-header{
+		font-size: 18px;
+	}
+	section.first-main-section .whole-first-section-content .text-discription{
+		font-size: 12px;
+		padding-top: 20px;
+	}
+
+	section.second-main-section, section.third-main-section {
+		height: 429px;
+	}
+
+	section.second-main-section .text-header, section.third-main-section .text-header {
+		font-size: 18px;
+	}
+	section.second-main-section .text-discription, section.third-main-section .text-discription {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+
+	section.second-main-section .main-text{
+		width: 240px;
+	}
+	section.second-main-section img{
+		width: 221px;
+	}
+
+	section.third-main-section .main-text{
+		width: 240px;
+	}
+	section.third-main-section img{
+		width: 276px;
+	}
+
+}

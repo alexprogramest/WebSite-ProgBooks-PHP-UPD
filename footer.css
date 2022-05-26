@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+footer{
+	width: 100%;
+	height: 422px;
+	background-color: #565554;	
+	min-width: 303px;
+}
+.footer-main-content{
+	display: flex;
+	justify-content: center;
+	color: white;
+	width: 1134px;
+	height: 233px;
+	padding-top: 99px;
+	padding-left: 9%;
+	font-weight: 500;
+	font-size: 18px;
+}
+.footer-main-content .additional-options{
+	display: flex;
+}
+.footer-main-content .social-network-info .call-to-action{
+	width: 437px;
+}
+.footer-main-content .social-network-info .social-networks img{
+	padding-left: 40px;
+	padding-top: 5.5px;
+	transition: 0.5s;
+}
+.footer-main-content .social-network-info .social-networks img:hover{
+	transform: translate(0, -12px);
+}
+.call-to-action, .header-options{
+	font-weight: 700;
+	font-size: 25px;
+	padding-bottom: 23.5px;
+}
+
+.footer-main-content .social-network-info > a{
+	display: block;
+	padding-left: 30px;
+	transition: 0.5s;
+}
+.footer-main-content .social-network-info > a:hover{
+	transform: translate(0, 6px);
+}
+
+.footer-main-content .account-options{
+	padding-left: 122px;
+
+}
+.footer-main-content .book-options{
+	padding-left: 150px;
+}
+
+.footer-main-content div.option {
+	width: 216px;
+	padding-top: 8.5px;
+	padding-bottom: 8.5px;
+}
+.footer-main-content div.option a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer-main-content div.option a:hover{
+	text-decoration: underline;
+	text-underline-offset: 17%;
+}
+
+
+@media (max-width: 1300px){
+	footer{
+		height: 722px;
+	}
+	.footer-main-content{
+		width: 100%;
+		height: 583px;
+		padding-left: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-main-content .social-network-info{
+		width: 500px;
+	}
+	.footer-main-content .account-options{
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	.footer-main-content .book-options{
+		padding-top: 10px;
+	}
+}
+
+
+@media (max-width: 1170px){
+	nav ul.other-pages {
+		display: none;
+	}
+	.additional-menu {
+		display: block;
+	}
+}
+
+@media (max-width: 700px){
+	.footer-main-content .book-options{
+		padding-left: 20px;
+	}
+	.footer-main-content .social-network-info {
+		width: 460px;
+	}
+}
+
+@media (max-width: 550px){
+	footer{
+		height: 300px;
+	}
+	.footer-main-content{
+		padding-top: 0;
+		font-size: 9px;
+		height: 300px;
+	}
+
+	.footer-main-content .social-network-info {
+		width: 265px;
+	}
+
+	.footer-main-content .social-network-info .call-to-action{
+		width: 265px;
+	}
+
+	.call-to-action, .header-options{
+		font-size: 15px;
+		padding-bottom: 11.5px;
+	}
+	.footer-main-content .social-network-info .social-networks img{
+		width: 30px;
+		padding-left: 27px;
+		padding-top: 2.5px;
+	}
+	.footer-main-content .social-network-info .social-networks img:hover{
+		transform: translate(0, -7px);
+	}
+
+	.footer-main-content .social-network-info > a{
+		padding-left: 33px;
+	}
+	.footer-main-content .social-network-info > a:hover{
+		transform: translate(0, 3px);
+	}
+	.footer-main-content .social-network-info > a img{
+		width: 200px;
+	}
+
+	.footer-main-content .account-options{
+		padding-left: 35px;
+
+	}
+	.footer-main-content .book-options{
+		padding-left: 0;
+	}
+
+	.footer-main-content div.option {
+		width: 118px;
+		padding-top: 4.25px;
+		padding-bottom: 4.25px;
+	}
+}

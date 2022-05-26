@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+section.premium-main-section {
+	width: 100%;
+	height: 1200px;
+	background: linear-gradient(rgba(71, 112, 123, 0.8), rgba(71, 112, 123, 0.8)), 
+		url(images/sign_in_or_sign_up/embossed-diamond.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 303px;
+}
+
+section.premium-main-section .title-text {
+	width: 680px;
+	padding-top: 88px;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+section.premium-main-section .main-content {
+	width: 1187px;
+	padding-top: 73px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+section.premium-main-section .main-content .card{
+	width: 475px;
+	height: 760px;
+	margin: 0 100px;
+	background: #FFFFFF;
+	border-radius: 66px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section.premium-main-section .main-content .card .title-card-block {
+	width: 475px;
+	height: 118px;
+	border-radius: 66px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+section.premium-main-section .main-content .card ul {
+	width: 336px;
+	list-style: none;
+}
+
+section.premium-main-section .main-content .card  ul li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+
+section.premium-main-section .main-content .card ul li div{
+	width: 100%;
+	padding-left: 20px;
+	text-align: left;
+	font-weight: 500;
+	font-size: 23px;
+}
+
+section.premium-main-section .main-content .card ul li img{
+	align-self: flex-start;
+	width: 30px;
+}
+
+section.premium-main-section .main-content .card .price-per-month{
+	font-weight: 500;
+	font-size: 20px;
+}
+
+section.premium-main-section .main-content .card form button.btn-for-buy {
+	width: 348px;
+	height: 85px;
+	margin-top: 10px;
+	background: #6D6875;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	border: none;
+	font-weight: 600;
+	font-size: 28px;
+	color: white;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+section.premium-main-section .main-content .card form button.btn-for-buy:hover{
+	transform: scale(1.05);
+}
+
+section.premium-main-section .main-content .first .title-card-block{
+	background: #F0F0F0;
+}
+
+section.premium-main-section .main-content .first .price-per-month{
+	margin-top: 181px;
+}
+
+section.premium-main-section .main-content .second .title-card-block{
+	background: linear-gradient(rgba(249, 251, 201, 1), rgba(249, 251, 201, 1));
+}
+
+section.premium-main-section .main-content .second .price-per-month{
+	margin-top: 35px;
+}
+
+section.premium-main-section .main-content .second .special-benefits ul li{
+	margin: 30px 0;
+}
+
+section.premium-main-section .main-content .second .special-benefits ul li:last-child{
+	margin-bottom: 0;
+}
+
+section.premium-main-section .additional-info {
+	width: 1187px;
+	margin-top: 28px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+section.premium-main-section .additional-info .text-addition {
+	width: 475px;
+	display: flex;
+	justify-content: center;
+}
+section.premium-main-section .additional-info .text-addition .the-text {
+	width: 411px;
+	font-size: 16px;
+}
+
+
+
+@media (max-width: 1210px){
+	section.premium-main-section {
+		height: 2000px;
+	}
+	section.premium-main-section .main-content {
+		width: 500px;
+		padding-top: 35px;
+		flex-direction: column;
+		align-items: center;
+	}
+	section.premium-main-section .main-content .card{
+		margin-top: 30px;
+	}
+	section.premium-main-section .additional-info {
+		width: 500px;
+		margin-top: 28px;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 700px){
+	section.premium-main-section .title-text {
+		width: 530px;
+		padding-top: 44px;
+	}
+}
+
+@media (max-width: 550px){
+	section.premium-main-section {
+		height: 1050px;
+	}
+
+	section.premium-main-section .title-text {
+		width: 300px;
+		padding-top: 33px;
+		font-size: 18px;
+	}
+
+	section.premium-main-section .main-content {
+		width: 300px;
+		padding-top: 20px;
+	}
+
+	section.premium-main-section .main-content .card{
+		width: 238px;
+		height: 380px;
+		border-radius: 33px;
+	}
+	section.premium-main-section .main-content .card .title-card-block {
+		width: 238px;
+		height: 70px;
+		border-radius: 33px;
+		font-size: 18px;
+	}
+
+	section.premium-main-section .main-content .card ul {
+		width: 178px;
+	}
+
+	section.premium-main-section .main-content .card  ul li{
+		margin: 10px 0;
+	}
+
+	section.premium-main-section .main-content .card ul li div{
+		padding-left: 10px;
+		font-size: 12px;
+	}
+
+	section.premium-main-section .main-content .card ul li img{
+		width: 15px;
+	}
+
+	section.premium-main-section .main-content .card .price-per-month{
+		font-weight: 500;
+		font-size: 12px;
+	}
+
+	section.premium-main-section .main-content .card button.btn-for-buy {
+		width: 174px;
+		height: 42px;
+		margin-top: 3px;
+		box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+		border-radius: 10px;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+	section.premium-main-section .main-content .card button.btn-for-buy:hover{
+		transform: scale(1.02);
+	}
+
+	section.premium-main-section .main-content .first .price-per-month{
+		margin-top: 99px;
+	}
+
+	section.premium-main-section .main-content .second .price-per-month{
+		margin-top: 34px;
+	}
+
+	section.premium-main-section .main-content .second .special-benefits ul li{
+		margin: 10px 0;
+	}
+
+	section.premium-main-section .additional-info {
+		width: 250px;
+		margin-top: 14px;
+	}
+
+	section.premium-main-section .additional-info .text-addition {
+		width: 225px;
+	}
+	section.premium-main-section .additional-info .text-addition .the-text {
+		width: 200px;
+		font-size: 9px;
+	}
+}

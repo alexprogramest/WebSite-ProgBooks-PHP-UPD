@@ -1,0 +1,345 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section.first-main-section, section.second-main-section, section.third-main-section{
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+	url(images/statistics/papyrus.png);
+	min-width: 303px;
+}
+
+
+section.first-main-section {
+	height: 622px;
+}
+section.first-main-section .own-title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 38px;
+}
+section.first-main-section .own-title .title-text{
+	font-size: 32px;
+	text-align: center;
+}
+
+section.first-main-section .own-title .title-image img{
+	width: 700px;
+	flex-basis: auto;
+	flex-shrink: 4;
+	max-width: 100%;
+}
+section.first-main-section .main-content {
+	width: 100%;
+	padding-top: 95px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+section.first-main-section .main-content .main-text{
+	width: 410px;
+	padding-left: 30px;
+}
+section.first-main-section .main-content .informative-part{
+	width: 669px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+section.first-main-section .main-content .informative-part ul li{
+	width: 291px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+section.first-main-section .main-content .informative-part ul li:first-of-type {
+    margin-top: 0;
+}
+
+section.first-main-section .main-content .informative-part ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+section.first-main-section .main-content .informative-part ul li .square-color{
+	width: 19.2px;
+	height: 19.2px;
+}
+
+section.first-main-section .main-content .informative-part ul li .percentage,
+section.first-main-section .main-content .informative-part ul li .text-category {
+	font-weight: 500;
+	font-size: 15px;
+}
+section.first-main-section .main-content .informative-part ul li .percentage {
+	width: 33px;
+}
+section.first-main-section .main-content .informative-part ul li .text-category{
+	width: 198px;
+}
+
+
+section.first-main-section .main-content .informative-part ul li.first .percentage {
+	color: #417AF0;
+}
+section.first-main-section .main-content .informative-part ul li.first .square-color {
+	background-color: #417AF0;
+}
+
+section.first-main-section .main-content .informative-part ul li.second .percentage {
+	color: #20973A;
+}
+section.first-main-section .main-content .informative-part ul li.second .square-color {
+	background-color: #20973A;
+}
+
+section.first-main-section .main-content .informative-part ul li.third .percentage {
+	color: #F2CF0A;
+}
+section.first-main-section .main-content .informative-part ul li.third .square-color {
+	background-color: #F2CF0A;
+}
+
+section.first-main-section .main-content .informative-part ul li.fourth .percentage {
+	color: #EDB13B;
+}
+section.first-main-section .main-content .informative-part ul li.fourth .square-color {
+	background-color: #EDB13B;
+}
+
+section.first-main-section .main-content .informative-part ul li.fifth .percentage {
+	color: #EA5D0F;
+}
+
+section.first-main-section .main-content .informative-part ul li.fifth .square-color{
+	background-color: #EA5D0F;
+}
+
+section.first-main-section .main-content .informative-part ul li.sixth .percentage {
+	color: #D71616;
+}
+section.first-main-section .main-content .informative-part ul li.sixth .square-color{
+	background-color: #D71616;
+}
+
+section.first-main-section .main-content .informative-part ul li.seventh .percentage {
+	color: #C226B3;
+}
+section.first-main-section .main-content .informative-part ul li.seventh .square-color{
+	background-color: #C226B3;
+}
+
+section.first-main-section .main-content .informative-part ul li.eighth .percentage {
+	color: #761EBB;
+}
+section.first-main-section .main-content .informative-part ul li.eighth .square-color{
+	background-color: #761EBB;
+}
+
+section.first-main-section .main-content .informative-part .diagram-image img{
+	width: 321px;
+	transition: 0.5s;
+}
+
+section.first-main-section .main-content .informative-part .diagram-image img:hover{
+	transform: translateY(-5px);
+}
+
+
+section.second-main-section > *, section.third-main-section > *{
+	margin: 0 60px;
+}
+
+section.second-main-section, section.third-main-section {
+	height: 550px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+section.first-main-section .text-header, section.second-main-section .text-header, 
+section.third-main-section .text-header {
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+}
+section.first-main-section .text-discription, section.second-main-section .text-discription, 
+section.third-main-section .text-discription {
+	padding-top: 38px;
+	font-weight: 500;
+	font-size: 23px;
+}
+
+
+section.second-main-section {
+	background: linear-gradient(0deg, rgba(166, 193, 181, 0.3), rgba(166, 193, 181, 0.3)),
+		url(images/statistics/papyrus.png);
+}
+
+section.second-main-section .main-text{
+	width: 470px;
+}
+section.second-main-section .main-img img{
+	width: 371px;
+	transition: 0.5s;
+}
+section.second-main-section .main-img img:hover{
+	transform: translateY(-5px);
+}
+
+
+section.third-main-section .main-text{
+	padding-left: 18px;
+	width: 358px;
+}
+
+section.third-main-section .main-img img{
+	width: 572px;
+	transition: 0.5s;
+}
+section.third-main-section .main-img img:hover{
+	transform: translateY(-5px);
+}
+
+
+
+@media (max-width: 1170px){
+	section.first-main-section {
+		height: 922px;
+	}
+	section.first-main-section .main-content {
+		padding-top: 95px;
+		flex-direction: column;
+	}	
+	section.first-main-section .main-content .informative-part{
+		margin-top: 80px;
+	}
+}
+
+@media (max-width: 1070px){
+	section.second-main-section, section.third-main-section {
+		height: 750px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+
+@media (max-width: 700px){
+	section.first-main-section .main-content .informative-part{
+		width: 480px;
+		flex-direction: column;
+	}
+	section.first-main-section {
+		height: 1272px;
+	}
+	section.first-main-section .main-content .informative-part .diagram-image img{
+		margin-top: 50px;
+	}
+	section.third-main-section .main-img img{
+		width: 472px;
+	}
+	section.third-main-section .main-text{
+		padding-left: 0;
+	}
+	section.first-main-section .main-content .main-text{
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 550px){
+	section.first-main-section {
+		height: 761px;
+	}
+	section.first-main-section .own-title{
+		padding-top: 19px;
+	}
+	section.first-main-section .own-title .title-text{
+		font-size: 16px;
+	}
+
+	section.first-main-section .own-title .title-image img{
+		width: 370px;
+	}
+	section.first-main-section .main-content {
+		padding-top: 47px;
+	}
+
+	section.first-main-section .main-content .main-text{
+		width: 205px;
+		padding-left: 15px;
+	}
+	section.first-main-section .main-content .informative-part{
+		margin-top: 50px;
+		width: 294px;
+	}
+
+	section.first-main-section .main-content .informative-part ul li{
+		width: 291px;
+		margin: 10px 0;
+	}
+
+	section.first-main-section .main-content .informative-part ul li .square-color{
+		width: 9.6px;
+		height: 9.6px;
+	}
+
+	section.first-main-section .main-content .informative-part ul li .percentage,
+	section.first-main-section .main-content .informative-part ul li .text-category {
+		font-size: 10px;
+	}
+
+	section.first-main-section .main-content .informative-part ul li .text-category{
+		width: 140px;
+	}
+
+
+	section.first-main-section .main-content .informative-part .diagram-image img{
+		width: 160px;
+	}
+
+	section.first-main-section .main-content .informative-part .diagram-image img:hover{
+		transform: translateY(-3px);
+	}
+
+
+	section.second-main-section, section.third-main-section {
+		height: 450px;
+	}
+	section.first-main-section .text-header, section.second-main-section .text-header, 
+	section.third-main-section .text-header {
+		font-size: 18px;
+	}
+	section.first-main-section .text-discription, section.second-main-section .text-discription, 
+	section.third-main-section .text-discription {
+		padding-top: 19px;
+		font-size: 12px;
+	}
+
+	section.second-main-section .main-text{
+		width: 235px;
+	}
+	section.second-main-section .main-img img{
+		width: 185px;
+	}
+	section.second-main-section .main-img img:hover{
+		transform: translateY(-3px);
+	}
+
+	section.third-main-section .main-text{
+		padding-left: 9px;
+		width: 235px;
+	}
+
+	section.third-main-section .main-img img{
+		width: 281px;
+	}
+	section.third-main-section .main-img img:hover{
+		transform: translateY(-3px);
+	}
+}
